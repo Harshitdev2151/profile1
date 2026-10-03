@@ -92,7 +92,7 @@ const ProfileGallery = () => {
             <Text style={styles.name}>
               {item.name.first} {item.name.last}
             </Text>
-            <Text style={styles.email}>{item.email}</Text>
+            <Text style={styles.email}>{item.email + " (harshit)"}</Text>
           </View>
         )}
         ListEmptyComponent={
